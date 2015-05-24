@@ -1,0 +1,98 @@
+/* If Wordpress is 3.8, uncomment below*/
+/* body.admin-bar .header {
+	margin-top: 32px;
+} */
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+    @extend .alignnone;
+}
+
+div.aligncenter,
+a img.aligncenter {
+    @extend .aligncenter;
+}
+
+a img.alignright {
+    @extend .alignright;
+}
+
+a img.alignleft {
+    @extend .alignleft;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+
+    &.alignnone {
+        margin: 5px 20px 20px 0;
+    }
+
+    &.alignleft {
+        margin: 5px 20px 20px 0;
+    }
+
+    &.alignright {
+        margin: 5px 0 20px 20px;
+    }
+
+    img {
+        border: 0 none;
+        height: auto;
+        margin: 0;
+        max-width: 98.5%;
+        padding: 0;
+        width: auto;
+    }
+
+    p.wp-caption-text {
+        font-size: 11px;
+        line-height: 17px;
+        margin: 0;
+        padding: 0 4px 5px;
+    }
+}
+
+.wp-caption-dd {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.sticky {
+    background: #f7f7f7;
+    padding: 0 10px 10px;
+}
+    
+.sticky h2 {
+    padding-top: 10px;
+}
+
+.comment {
+    padding-bottom: 30px;
+}
